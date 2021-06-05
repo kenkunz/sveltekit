@@ -4,10 +4,13 @@
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
-		"preview": "svelte-kit preview"
+		"preview": "svelte-kit preview",
+		"test": "wtr \"src/**/*.test.js\""
 	},
 	"devDependencies": {
 		"@sveltejs/kit": "workspace:*",
+		"@web/test-runner": "^0.13.5",
+		"assert": "^2.0.0",
 		"svelte": "^3.34.0"
 	},
 	"type": "module",
